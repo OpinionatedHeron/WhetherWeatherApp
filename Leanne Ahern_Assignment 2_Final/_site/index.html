@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="has-background-white" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whether Weather</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/cloud-favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+
+  <!-- Including ling to JS data, from the provided data set -->
+  <script src="/js/bulma.js"></script>
+  <script src="/js/components/city-names.js"></script>
+  <script src="/js/components/forecast-data.js"></script>
+  <script src="/js/weather_data.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+
+      <script src="/js/pages/index.js"></script>
+</head>
+
+<body>
+  <!-- Included Bulma NAV as a way to get back to the Dashboard -->
+<nav class="navbar has-background-white">
+  <div class="navbar-brand">
+    <span class="navbar-burger has-background-white" data-target="navbarMenu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </span>
+  </div>
+  <div id="navbarMenu" class="navbar-menu">
+    <div class="navbar-end has-background-white">
+      <a href="/index" class="navbar-item has-text-warning has-text-weight-bold is-size-3">
+        Dashboard
+      </a>
+    </div>
+  </div>
+</nav>
+
+  <main class="columns is-multiline box has-background-white is-centered">
+    <header class="column is-12 has-text-centered">
+  <div class="content-text has-text-centered">
+    <img class="is-pulled-left"src="/images/logo.png" sizes="128x128" alt="Logo" />
+      <p class="title is-size-1 has-text-weight-bold">Dashboard</p>
+  </div>
+</header>
+    
+  </main>
+  <footer class="footer has-background-white has-text-black">
+  <div class="container">
+    <div class="content has-text-centered has-text-weight-bold">
+      <p>
+        (Whether)Weather - Weather App
+        <img class="image is-16x16 is-inline" src="/images/copyright.png" alt="(whether)weather">
+      </p>
+    </div>
+  </div>
+</footer>
+</body>
+
+</html>
+
